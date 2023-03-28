@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+h1,h2,h3{
+    font-size: 175%;
+    font-style: inherit;
+    font-weight: 700;
+    font-stretch: extra-expanded;
+  }
+#def{
+    text-align: justify;
+    text-indent: 40px;
+    /* text-shadow: 2px 2px 2px rgb(75, 73, 73); */
+    max-width: 700px;
+    min-width: 400px;
+  }
+#def:first-letter{
+    font-size: 1.5em;
+  }
+a:link{
+    color: rgb(12, 229, 99);
+}    
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    font-size: larger;
+}
+a:active{
+    color: aqua;
+}
+/* div>h1{ */
+     /* text-align: ;    */
+/* } */
+.wh{
+    max-width: 1500px;
+    min-width: 500px;
+    padding: 15px;
+    border-width: 4px 2px;
+    border-style: double dotted ;
+    border-color: rgba(3, 3, 118, 0.786);
+    background-color: azure;
+}
+.opt{
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    max-width: 1000px;
+    min-width: 300px;
+}
+/* #or{
+    text-align: center;
+} */
