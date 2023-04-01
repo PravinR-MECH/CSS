@@ -1,0 +1,49 @@
+body{
+    /* background-color: rgb(0, 0,0, 0.9 ); */
+    background: url(pexels-chris-czermak-2444429.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reg{
+    width: 400px;
+    margin: 250px auto;
+    background-color: rgba(255,255,255 );
+    color: black ;
+    padding: 10px 20px 20px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.reg h2{
+      text-align: center;
+      color: #011F45;
+}
+.reg .tl{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.1em;
+    margin: 10px 0px 15px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 3px double #FD151B;    
+}
+input:focus{
+   background-color:rgba(67, 127, 151,.3);
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: rgba(255, 179, 15,.5);
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 3px double blanchedalmond;
+}
+.gender input{
+    /* padding: 20px 30px 0px; */
+    accent-color: #FD151B;
+    transform: scale(1.5);
+}
