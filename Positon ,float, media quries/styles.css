@@ -1,0 +1,28 @@
+.bb{
+    /* background-color: blue; */
+    width: 500px;
+    height: 500px;
+    position: relative;
+   background: repeating-linear-gradient( 75deg, red 20px,red 20px,black 30px,black 30px);
+}
+  /* .yb{
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+    position: relative ;
+    left: 150px;
+    bottom: 350px;
+     position: absolute; 
+} */
+.pp{
+    
+    text-align: justify;
+    
+}
+@media (min-width:801px) {
+    .pp p{
+    width : 30%;
+    float: left;
+    padding : 10px;
+    }
+}
