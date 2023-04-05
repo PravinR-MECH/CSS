@@ -1,0 +1,41 @@
+.ob{
+    background-color: black;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.ib{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid black;
+}
+.ib1{
+    flex: 1 2 3px;
+}
+.con{
+    display: flex;
+    
+}
+p{
+    padding: 10px;
+    text-align: justify;
+
+}
+.p1{
+    background-color: antiquewhite;
+    flex: 3;
+    order: 3;
+}
+.p2{
+    background-color: aliceblue;
+    flex: 2;
+    order: 1;
+}
+.p3{
+    background-color: aqua;
+    flex: 2;
+    order: 2;
+}
