@@ -1,0 +1,77 @@
+body{
+    background-color: azure;
+}
+.con{
+    
+    display: grid;
+    grid-template-columns: minmax(200px,1fr) 1fr 1fr;
+    gap: 10px;
+    /* column-gap: 10px;
+    row-gap: 10px ; */
+}
+.para{
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(17, 16, 16, 0.812);
+    color: white;
+}
+.numpad{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,200px)) ;
+    grid-template-rows: repeat(4,minmax(50px,.5fr));
+    gap: 10px;
+    justify-content: center;
+    margin: 40px;
+    /* justify-items: center; */
+
+}
+.num{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.n0{
+   /* grid-column-start: 1;
+   grid-column-end: 4; */
+   grid-column: 1/4;
+}
+.dd{
+   justify-self:stretch;
+}
+.lay div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border: 3px double black;
+    font-size: 2em;
+    font-family: monospace;
+}
+.lay{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh 70vh 10vh;
+    gap: 3px;
+    grid-template-areas: 
+    "h h h h"
+    "s1 m m s2"
+    "f f f f";    ;
+}
+.head{
+    grid-area:h;
+}
+.side1{
+    grid-area:s1;
+}
+.main{
+    grid-area:m;
+}
+.side2{
+    grid-area:s2;
+}
+
+.foot{
+    grid-area:f;    
+}
